@@ -103,5 +103,9 @@ def verify():
 
 
 if __name__ == "__main__":
-    print("http://localhost:5000")
-    app.run(port=5000, debug=True)
+    from waitress import serve # type: ignore
+    import os
+
+    port = int(os.environ.get("PORT", 10000))
+    print(f"✅ Server running on port {port}")
+    serve(app, host="0.0.0.0", port=port)

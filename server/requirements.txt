@@ -1,6 +1,7 @@
 Flask
 flask-cors
 firebase-admin
+opencv-python
 face-recognition
 numpy
-opencv-python
+waitress

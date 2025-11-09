@@ -48,3 +48,6 @@ firebase-key.json
 # ========================
 .vercel/
 .env.*
+__pycache__/
+firebase-key.json
+.env
