@@ -1,7 +1,8 @@
 Flask
 flask-cors
 firebase-admin
-opencv-python
-face-recognition
 numpy
 waitress
+opencv-python-headless
+face-recognition-models
+face-recognition @ git+https://github.com/ageitgey/face_recognition.git
