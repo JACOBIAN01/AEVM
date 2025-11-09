@@ -1,0 +1,8 @@
+Flask
+flask-cors
+firebase-admin
+numpy
+waitress
+opencv-python-headless
+face-recognition-models
+face-recognition @ git+https://github.com/ageitgey/face_recognition.git
