@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { doc, onSnapshot } from "firebase/firestore";
-import { db } from "../firebase.js";
+import { db } from "../firebase";
 // eslint-disable-next-line no-unused-vars
 import { motion, AnimatePresence } from "framer-motion";
 import { useNavigate } from "react-router-dom";
