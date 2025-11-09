@@ -1,8 +1,8 @@
-Flask
-flask-cors
-firebase-admin
-numpy
-opencv-python-headless
-dlib-bin
-face-recognition
-waitress
+Flask==3.1.2
+flask-cors==6.0.1
+firebase-admin==7.1.0
+numpy==2.2.6
+opencv-python-headless==4.12.0.88
+face-recognition==1.4.0
+dlib-bin==19.24.6
+waitress==3.0.2
