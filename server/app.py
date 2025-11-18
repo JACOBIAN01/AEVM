@@ -12,7 +12,6 @@ app = Flask(__name__)
 CORS(app)
 
 
-
 # Firebase setup
 cred = credentials.Certificate("./firebase-key.json")
 firebase_admin.initialize_app(cred)
